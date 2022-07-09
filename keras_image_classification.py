@@ -226,7 +226,9 @@ def load_model(model: str) -> None:
 
 
 def get_model_target_size(model: str) -> Tuple[int, int]:
-    if model in (INCEPTIONV3, XCEPTION, INCEPTIONRESNETV2):
+    if model == NASNETLARGE:
+        return (331, 331)
+    elif model in (INCEPTIONV3, XCEPTION, INCEPTIONRESNETV2):
         return (299, 299)
     elif model in (EFFICIENTNETV2B0, EFFICIENTNETV2B1, EFFICIENTNETV2B2, EFFICIENTNETV2B3):
         return (260, 260)
