@@ -1,5 +1,5 @@
 __desc__ = "A thin wrapper around keras image classification applications."
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 import io
 from typing import Tuple, Union
