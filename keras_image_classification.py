@@ -125,7 +125,8 @@ def classify(
     results: int = 3,
     model: str = INCEPTIONV3,
 ) -> tuple:
-    assert results <= 5, "Keras applications don't give more than five results."
+    if results > 5:
+        raise ValueError("Keras applications don't give more than five results.")
 
     if not isinstance(image, pillow.Image.Image):
         if isinstance(image, str):
