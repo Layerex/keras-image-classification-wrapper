@@ -35,6 +35,13 @@ EFFICIENTNETB4 = "efficientnetb4"
 EFFICIENTNETB5 = "efficientnetb5"
 EFFICIENTNETB6 = "efficientnetb6"
 EFFICIENTNETB7 = "efficientnetb7"
+EFFICIENTNETV2B0 = "efficientnetv2b0"
+EFFICIENTNETV2B1 = "efficientnetv2b1"
+EFFICIENTNETV2B2 = "efficientnetv2b2"
+EFFICIENTNETV2B3 = "efficientnetv2b3"
+EFFICIENTNETV2S = "efficientnetv2s"
+EFFICIENTNETV2M = "efficientnetv2m"
+EFFICIENTNETV2L = "efficientnetv2l"
 
 MODULES = {
     XCEPTION: xception,
@@ -63,6 +70,13 @@ MODULES = {
     EFFICIENTNETB5: efficientnet,
     EFFICIENTNETB6: efficientnet,
     EFFICIENTNETB7: efficientnet,
+    EFFICIENTNETV2B0: efficientnet_v2,
+    EFFICIENTNETV2B1: efficientnet_v2,
+    EFFICIENTNETV2B2: efficientnet_v2,
+    EFFICIENTNETV2B3: efficientnet_v2,
+    EFFICIENTNETV2S: efficientnet_v2,
+    EFFICIENTNETV2M: efficientnet_v2,
+    EFFICIENTNETV2L: efficientnet_v2,
 }
 
 MODELS = {
@@ -92,6 +106,13 @@ MODELS = {
     EFFICIENTNETB5: EfficientNetB5,
     EFFICIENTNETB6: EfficientNetB6,
     EFFICIENTNETB7: EfficientNetB7,
+    EFFICIENTNETV2B0: EfficientNetV2B0,
+    EFFICIENTNETV2B1: EfficientNetV2B1,
+    EFFICIENTNETV2B2: EfficientNetV2B2,
+    EFFICIENTNETV2B3: EfficientNetV2B3,
+    EFFICIENTNETV2S: EfficientNetV2S,
+    EFFICIENTNETV2M: EfficientNetV2M,
+    EFFICIENTNETV2L: EfficientNetV2L,
 }
 
 _loaded_models = {}
@@ -108,6 +129,8 @@ def load_model(model: str) -> None:
 def get_model_target_size(model: str) -> Tuple[int, int]:
     if model in (INCEPTIONV3, XCEPTION, INCEPTIONRESNETV2):
         return (299, 299)
+    elif model in (EFFICIENTNETV2B0, EFFICIENTNETV2B1, EFFICIENTNETV2B2, EFFICIENTNETV2B3):
+        return (260, 260)
     else:
         return (224, 224)
 

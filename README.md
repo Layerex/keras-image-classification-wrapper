@@ -22,7 +22,7 @@ Classify an image.
 
 `results` has to be less that 5, since keras applications don't give more than five results.
 
-`model` has to be one of: `XCEPTION`, `VGG16`, `VGG19`, `RESNET50`, `RESNET101`, `RESNET152`, `RESNET50V2`, `RESNET101V2`, `RESNET152V2`, `INCEPTIONV3`, `INCEPTIONRESNETV2`, `MOBILENET`, `MOBILENETV2`, `DENSENET121`, `DENSENET169`, `DENSENET201`, `NASNETMOBILE`, `NASNETLARGE`, `EFFICIENTNETB0`, `EFFICIENTNETB1`, `EFFICIENTNETB2`, `EFFICIENTNETB3`, `EFFICIENTNETB4`, `EFFICIENTNETB5`, `EFFICIENTNETB6`, `EFFICIENTNETB7`. Take a look at [model characteristics](https://keras.io/api/applications/#available-models), if you are not sure, which one to choose.
+`model` has to be one of: `XCEPTION`, `VGG16`, `VGG19`, `RESNET50`, `RESNET101`, `RESNET152`, `RESNET50V2`, `RESNET101V2`, `RESNET152V2`, `INCEPTIONV3`, `INCEPTIONRESNETV2`, `MOBILENET`, `MOBILENETV2`, `DENSENET121`, `DENSENET169`, `DENSENET201`, `NASNETMOBILE`, `NASNETLARGE`, `EFFICIENTNETB0`, `EFFICIENTNETB1`, `EFFICIENTNETB2`, `EFFICIENTNETB3`, `EFFICIENTNETB4`, `EFFICIENTNETB5`, `EFFICIENTNETB6`, `EFFICIENTNETB7`, `EFFICIENTNETV2B0`, `EFFICIENTNETV2B1`, `EFFICIENTNETV2B2`, `EFFICIENTNETV2B3`, `EFFICIENTNETV2S`, `EFFICIENTNETV2M`, `EFFICIENTNETV2L`. Take a look at [model characteristics](https://keras.io/api/applications/#available-models), if you are not sure, which one to choose.
 
 ```python
 def load_model(model: str) -> None:
