@@ -25,6 +25,30 @@ RESNETRS200 = "resnetrs200"
 RESNETRS270 = "resnetrs270"
 RESNETRS350 = "resnetrs350"
 RESNETRS420 = "resnetrs420"
+REGNETX002 = "regnetx002"
+REGNETX004 = "regnetx004"
+REGNETX006 = "regnetx006"
+REGNETX008 = "regnetx008"
+REGNETX016 = "regnetx016"
+REGNETX032 = "regnetx032"
+REGNETX040 = "regnetx040"
+REGNETX064 = "regnetx064"
+REGNETX080 = "regnetx080"
+REGNETX120 = "regnetx120"
+REGNETX160 = "regnetx160"
+REGNETX320 = "regnetx320"
+REGNETY002 = "regnety002"
+REGNETY004 = "regnety004"
+REGNETY006 = "regnety006"
+REGNETY008 = "regnety008"
+REGNETY016 = "regnety016"
+REGNETY032 = "regnety032"
+REGNETY040 = "regnety040"
+REGNETY064 = "regnety064"
+REGNETY080 = "regnety080"
+REGNETY120 = "regnety120"
+REGNETY160 = "regnety160"
+REGNETY320 = "regnety320"
 INCEPTIONV3 = "inceptionv3"
 INCEPTIONRESNETV2 = "inceptionresnetv2"
 MOBILENET = "mobilenet"
@@ -67,6 +91,30 @@ MODULES = {
     RESNETRS270: resnet_rs,
     RESNETRS350: resnet_rs,
     RESNETRS420: resnet_rs,
+    REGNETX002: regnet,
+    REGNETX004: regnet,
+    REGNETX006: regnet,
+    REGNETX008: regnet,
+    REGNETX016: regnet,
+    REGNETX032: regnet,
+    REGNETX040: regnet,
+    REGNETX064: regnet,
+    REGNETX080: regnet,
+    REGNETX120: regnet,
+    REGNETX160: regnet,
+    REGNETX320: regnet,
+    REGNETY002: regnet,
+    REGNETY004: regnet,
+    REGNETY006: regnet,
+    REGNETY008: regnet,
+    REGNETY016: regnet,
+    REGNETY032: regnet,
+    REGNETY040: regnet,
+    REGNETY064: regnet,
+    REGNETY080: regnet,
+    REGNETY120: regnet,
+    REGNETY160: regnet,
+    REGNETY320: regnet,
     INCEPTIONV3: inception_v3,
     INCEPTIONRESNETV2: inception_resnet_v2,
     MOBILENET: mobilenet,
@@ -110,6 +158,30 @@ MODELS = {
     RESNETRS270: ResNetRS270,
     RESNETRS350: ResNetRS350,
     RESNETRS420: ResNetRS420,
+    REGNETX002: RegNetX002,
+    REGNETX004: RegNetX004,
+    REGNETX006: RegNetX006,
+    REGNETX008: RegNetX008,
+    REGNETX016: RegNetX016,
+    REGNETX032: RegNetX032,
+    REGNETX040: RegNetX040,
+    REGNETX064: RegNetX064,
+    REGNETX080: RegNetX080,
+    REGNETX120: RegNetX120,
+    REGNETX160: RegNetX160,
+    REGNETX320: RegNetX320,
+    REGNETY002: RegNetY002,
+    REGNETY004: RegNetY004,
+    REGNETY006: RegNetY006,
+    REGNETY008: RegNetY008,
+    REGNETY016: RegNetY016,
+    REGNETY032: RegNetY032,
+    REGNETY040: RegNetY040,
+    REGNETY064: RegNetY064,
+    REGNETY080: RegNetY080,
+    REGNETY120: RegNetY120,
+    REGNETY160: RegNetY160,
+    REGNETY320: RegNetY320,
     INCEPTIONV3: InceptionV3,
     INCEPTIONRESNETV2: InceptionResNetV2,
     MOBILENET: MobileNet,
