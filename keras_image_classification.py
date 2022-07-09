@@ -18,6 +18,13 @@ RESNET152 = "resnet152"
 RESNET50V2 = "resnet50v2"
 RESNET101V2 = "resnet101v2"
 RESNET152V2 = "resnet152v2"
+RESNETRS50 = "resnetrs50"
+RESNETRS101 = "resnetrs101"
+RESNETRS152 = "resnetrs152"
+RESNETRS200 = "resnetrs200"
+RESNETRS270 = "resnetrs270"
+RESNETRS350 = "resnetrs350"
+RESNETRS420 = "resnetrs420"
 INCEPTIONV3 = "inceptionv3"
 INCEPTIONRESNETV2 = "inceptionresnetv2"
 MOBILENET = "mobilenet"
@@ -53,6 +60,13 @@ MODULES = {
     RESNET50V2: resnet_v2,
     RESNET101V2: resnet_v2,
     RESNET152V2: resnet_v2,
+    RESNETRS50: resnet_rs,
+    RESNETRS101: resnet_rs,
+    RESNETRS152: resnet_rs,
+    RESNETRS200: resnet_rs,
+    RESNETRS270: resnet_rs,
+    RESNETRS350: resnet_rs,
+    RESNETRS420: resnet_rs,
     INCEPTIONV3: inception_v3,
     INCEPTIONRESNETV2: inception_resnet_v2,
     MOBILENET: mobilenet,
@@ -89,6 +103,13 @@ MODELS = {
     RESNET50V2: ResNet50V2,
     RESNET101V2: ResNet101V2,
     RESNET152V2: ResNet152V2,
+    RESNETRS50: ResNetRS50,
+    RESNETRS101: ResNetRS101,
+    RESNETRS152: ResNetRS152,
+    RESNETRS200: ResNetRS200,
+    RESNETRS270: ResNetRS270,
+    RESNETRS350: ResNetRS350,
+    RESNETRS420: ResNetRS420,
     INCEPTIONV3: InceptionV3,
     INCEPTIONRESNETV2: InceptionResNetV2,
     MOBILENET: MobileNet,
