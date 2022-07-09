@@ -106,7 +106,7 @@ def load_model(model: str) -> None:
 
 
 def get_model_target_size(model: str) -> Tuple[int, int]:
-    if model in ("inceptionv3", "xception", "inceptionresnetv2"):
+    if model in (INCEPTIONV3, XCEPTION, INCEPTIONRESNETV2):
         return (299, 299)
     else:
         return (224, 224)
