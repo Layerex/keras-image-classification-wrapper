@@ -142,6 +142,6 @@ def classify(
     prediction_results = MODULES[model].decode_predictions(predictions)[0]
 
     return tuple(
-        {"label": label, "probability": float(probability)}
+        {"imagenet_id": imagenet_id, "label": label, "probability": float(probability)}
         for imagenet_id, label, probability in prediction_results[:results]
     )

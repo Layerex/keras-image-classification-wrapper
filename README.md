@@ -77,7 +77,7 @@ print(labels)
 Output:
 
 ```
-({'label': 'Persian_cat', 'probability': 0.7992992997169495},
- {'label': 'web_site',    'probability': 0.03164924681186676},
- {'label': 'jigsaw_puzzle', 'probability': 0.0135102029889822})
+({'imagenet_id': 'n02123394', 'label': 'Persian_cat', 'probability': 0.7993967533111572},
+ {'imagenet_id': 'n06359193', 'label': 'web_site', 'probability': 0.03162319213151932},
+ {'imagenet_id': 'n03598930', 'label': 'jigsaw_puzzle', 'probability': 0.013497020117938519})
 ```
