@@ -7,6 +7,7 @@ from typing import Tuple, Union
 import numpy as np
 import PIL as pillow
 from tensorflow.keras.applications import *
+from tensorflow.keras.applications import VGG16 as _VGG16, VGG19 as _VGG19
 from tensorflow.keras.preprocessing.image import img_to_array
 
 XCEPTION = "xception"
@@ -147,8 +148,8 @@ MODULES = {
 
 MODELS = {
     XCEPTION: Xception,
-    VGG16: VGG16,
-    VGG19: VGG19,
+    VGG16: _VGG16,
+    VGG19: _VGG19,
     RESNET50: ResNet50,
     RESNET101: ResNet101,
     RESNET152: ResNet152,
