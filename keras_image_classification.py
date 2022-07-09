@@ -131,6 +131,17 @@ def get_model_target_size(model: str) -> Tuple[int, int]:
         return (299, 299)
     elif model in (EFFICIENTNETV2B0, EFFICIENTNETV2B1, EFFICIENTNETV2B2, EFFICIENTNETV2B3):
         return (260, 260)
+    elif model in (
+        EFFICIENTNETB0,
+        EFFICIENTNETB1,
+        EFFICIENTNETB2,
+        EFFICIENTNETB3,
+        EFFICIENTNETB4,
+        EFFICIENTNETB5,
+        EFFICIENTNETB6,
+        EFFICIENTNETB7,
+    ):
+        return (240, 240)
     else:
         return (224, 224)
 
