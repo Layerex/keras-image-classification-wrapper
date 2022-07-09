@@ -53,6 +53,8 @@ INCEPTIONV3 = "inceptionv3"
 INCEPTIONRESNETV2 = "inceptionresnetv2"
 MOBILENET = "mobilenet"
 MOBILENETV2 = "mobilenetv2"
+MOBILENETV3SMALL = "mobilenetv3small"
+MOBILENETV3LARGE = "mobilenetv3large"
 DENSENET121 = "densenet121"
 DENSENET169 = "densenet169"
 DENSENET201 = "densenet201"
@@ -119,6 +121,8 @@ MODULES = {
     INCEPTIONRESNETV2: inception_resnet_v2,
     MOBILENET: mobilenet,
     MOBILENETV2: mobilenet_v2,
+    MOBILENETV3SMALL: mobilenet_v3,
+    MOBILENETV3LARGE: mobilenet_v3,
     DENSENET121: densenet,
     DENSENET169: densenet,
     DENSENET201: densenet,
@@ -186,6 +190,8 @@ MODELS = {
     INCEPTIONRESNETV2: InceptionResNetV2,
     MOBILENET: MobileNet,
     MOBILENETV2: MobileNetV2,
+    MOBILENETV3SMALL: MobileNetV3Small,
+    MOBILENETV3LARGE: MobileNetV3Large,
     DENSENET121: DenseNet121,
     DENSENET169: DenseNet169,
     DENSENET201: DenseNet201,
